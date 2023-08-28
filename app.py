@@ -296,7 +296,7 @@ if st.button('Upload to OpenAI'):
 # Input for TRAINING_FILE_ID
 training_file_id = st.text_input('Enter your TRAINING_FILE_ID:* wait until you get an email from OpenAI with your ID')
 
-if st.button('Send for Fine Tuning'):
+if st.button('Start fine-tunning job'):
     if not training_file_id:
         st.warning("Please enter a TRAINING_FILE_ID before sending for fine tuning.")
     else:
